@@ -1,0 +1,16 @@
+google page->inspect->go to console-> go to sources then click on New snippet we can write many code lines .....
+...
+alert("Heloow");
+alert=>it acts as function ......it do some work..
+.("Heloow")=>(Heloow)its acts as Message..
+.;=>end of the line.....
+=============================
+Bolean.....True or False...
+typeof("ggg");   its says that "string"
+
+
+syntax::::string and number
+1)var myname="muttalib";
+=== ======= =========
+var name     value
+2)var mynum= 123;
