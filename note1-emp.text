@@ -1,0 +1,136 @@
+JAVA SCRIPT::::::
+1)the lang that powers the web
+note:
+Mosaic is first browers...before the explore ,chrome,etc
+...Brendan Eich develop the java script with in 10 days
+1.Live script(Brendan)
+2.JScript(Microsoft)
+3.ECMAScript(European)
+4.javascript..
+what is this script?
+A.Its tell what should to do....
+ eg;dad:hi   <p>heloow</P>
+    son:hi dad<h1>jjjjjjj</h1>
+==================================
+Difference Java vs Javascript
+Eg:javascript is interpreted  programing language..
+   java is compiled programing lang....
+   
+  =====interpreted   
+ .javascript
+ .python
+ .Ruby
+  ===compiled 
+ .java
+ .c/c++
+ .swift
+
+===========================
+google page->inspect->go to console-> go to sources then click on New snippet we can write many code lines .....
+...
+alert("Heloow");
+alert=>it acts as function ......it do some work..
+.("Heloow")=>(Heloow)its acts as Message..
+.;=>end of the line.....
+=============================
+Bolean.....True or False...
+typeof("ggg");   its says that "string"
+
+
+syntax::::string and number
+1)var myname="muttalib";
+=== ======= =========
+var name     value
+2)var mynum= 123;
+=============================
+strings concatenation::::::
+
+var tweet=prompt("write your tweet Below");
+var tweetCount=tweet.length;
+alert("you have written" + tweet.length +"  char" +"  and remaining char is"+ (140- tweetCount));
+===================================================================================================
+making func();
+function getMilk() {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+======finding a cost
+
+function getMilk(money) {   
+ var cost =Math.floor(money /1.5);
+  console.log("uor cost of this bottles of milk is " +cost + "$" );
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+
+getMilk(5);
+=========================
+calculating age===
+
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+    var yearremaing= 90-age;
+    var days=yearremaing-365;
+    var week=yearremaing-52;
+    var month=yearremaing-12;
+    
+
+    console.log("you have "+days+ "days "+week+ "weeks" + month+ "month" );
+    
+    
+    
+/*************Don't change the code below**********/
+}
+lifeInWeeks(12);
+================================================================
+constructor
+var housekeeper={
+    name:"hack",
+    age:12,
+    language:["English","friench"]
+}
+function workwe(name,age,language)
+{
+    this.name=name;
+    this.age=age;
+    this.language=language;
+}
+assing variables===workwe("HAA",12,"["eng","urd"];
+console.log("workwe.name");
+
+
